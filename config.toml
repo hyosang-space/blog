@@ -6,14 +6,14 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://hyosang.space/"
 
 # Title of your site
-title = "Academic"
+title = "HyoSang space"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2018 hyosang"
 
 theme = "academic"
 enableEmoji = true
@@ -23,18 +23,18 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "hyosang-space"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
@@ -52,26 +52,24 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Hyosang,Kim"
+  role = "developer"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "hyosang.space", url = "hyosang.space" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "hyosang.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  email = "hyosang.space@gmail.com"
+  address = "Seoul, Korea"
   office_hours = """
-  Monday 10:00 to 13:00\\
-  Wednesday 09:00 to 10:00\\
-  Otherwise email to book an appointment
+email to book an appointment
   """
-  phone = "888 888 88 88"
-  skype = "echo123"
+  phone = ""
+  skype = ""
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -99,8 +97,8 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "37.566"
+  longitude = "126.9784"
   zoom = 15
 
   # SITE SETUP
@@ -130,9 +128,9 @@ enableGitInfo = false
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Jan 2, 2006"
+  date_format = "January 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+  time_format = "15:04 MST"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -141,11 +139,11 @@ enableGitInfo = false
   comment_count = true
 
   # Display next/previous section pager?
-  section_pager = false
+  section_pager = true
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -173,8 +171,9 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
+  highlight_languages = ["python","java"]
+  # highlight_style = "github" #org
+  highlight_style = "solarized-dark"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -234,7 +233,7 @@ enableGitInfo = false
     #   2 = APA
     #   3 = MLA
     #   4 = Stream
-    publication_format = 4
+    publication_format = 3
 
     # Talk list format.
     #   0 = Simple
@@ -260,25 +259,25 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+  # [[params.social]]
+  #   icon = "envelope"
+  #   icon_pack = "fas"
+  #   link = "mailto:com@gmail.com"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
+  # [[params.social]]
+  #   icon = "twitter"
+  #   icon_pack = "fab"
+  #   link = "https://twitter.com/GeorgeCushen"
 
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  # [[params.social]]
+  #   icon = "google-scholar"
+  #   icon_pack = "ai"
+  #   link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    link = "//github.com/hyosang-space"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -295,35 +294,35 @@ enableGitInfo = false
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
-[[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+# [[menu.main]]
+#   name = "Home"
+#   url = "#about"
+#   weight = 1
 
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+# [[menu.main]]
+#   name = "Publications"
+#   url = "#publications_selected"
+#   weight = 2
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+# [[menu.main]]
+#   name = "Projects"
+#   url = "#projects"
+#   weight = 4
 
-[[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
-  weight = 5
+# [[menu.main]]
+#   name = "Tutorials"
+#   url = "/tutorial/"
+#   weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+# [[menu.main]]
+#   name = "Contact"
+#   url = "#contact"
+#   weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -338,7 +337,7 @@ enableGitInfo = false
   #   0: No search engine
   #   1: Built-in (Fuse)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 0
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.

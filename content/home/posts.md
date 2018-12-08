@@ -6,7 +6,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Recent Posts"
-subtitle = ""
+subtitle = "Category"
 
 # Order that this section will appear in.
 weight = 40
@@ -24,6 +24,6 @@ count = 5
 #   0 = Simple
 #   1 = Detailed
 #   2 = Stream
-list_format = 2
+list_format = 1
 +++
 
