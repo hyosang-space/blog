@@ -2,10 +2,10 @@
 title = "Manjaro Setting"
 author = ["Hyosang Kim"]
 date = 2018-12-10T14:11:00+09:00
-lastmod = 2018-12-10T14:11:50+09:00
+lastmod = 2018-12-10T14:14:48+09:00
 tags = ["post"]
 draft = false
-summary = "summary"
+summary = "basic setup, settings and vnc"
 +++
 
 <div class="ox-hugo-toc toc">
