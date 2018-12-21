@@ -1,10 +1,10 @@
 +++
 title = "development stuffs"
 author = ["Hyosang Kim"]
-date = 2018-12-08T20:27:00+09:00
-lastmod = 2018-12-08T20:27:12+09:00
+date = 2018-10-23T14:57:00+09:00
+lastmod = 2018-12-10T16:14:40+09:00
 tags = ["post"]
-draft = false
+draft = true
 summary = "languages & tools, etc."
 +++
 

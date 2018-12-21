@@ -2,7 +2,7 @@
 title = "Manjaro Setting"
 author = ["Hyosang Kim"]
 date = 2018-12-10T14:11:00+09:00
-lastmod = 2018-12-10T14:14:48+09:00
+lastmod = 2018-12-21T10:38:37+09:00
 tags = ["post"]
 draft = false
 summary = "basic setup, settings and vnc"
@@ -106,6 +106,11 @@ yaourt -S zsh zsh-completions
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 yaourt -S zsh-theme-powerlevel9k
 ```
+
+-   google drive 등 기타 모든(?) storage sync는 [rclone](https://rclone.org) 으로 사용.<br>
+    ex) gdrive 관련 설정을 rclone config 로 해놓은후 mount하여 사용가능.<br>
+        rclone mount remote\_name(remote):directory(/) local\_directory(~/gDrive)<br>
+        해제는 umount local\_directory
 
 <br>
 
