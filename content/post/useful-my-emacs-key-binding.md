@@ -2,7 +2,7 @@
 title = "Useful key binding"
 author = ["Hyosang Kim"]
 date = 2018-09-06T11:03:00+09:00
-lastmod = 2018-10-11T15:23:12+09:00
+lastmod = 2019-03-29T10:00:18+09:00
 tags = ["post"]
 draft = false
 summary = "익혀두면 머리가 편해지는 단축키들"
@@ -14,6 +14,7 @@ summary = "익혀두면 머리가 편해지는 단축키들"
 <div class="heading">Table of Contents</div>
 
 - [<B> Emacs (w/Spacemacs) </B>](#)
+- [<B> Xfce </B>](#)
 - [<B> Multi-session </B>](#)
 
 </div>
@@ -51,7 +52,7 @@ summary = "익혀두면 머리가 편해지는 단축키들"
 
     </div>
 
-    1.  basic
+3.  basic
 
     <div class="ox-hugo-table bind-key-table">
     <div></div>
@@ -61,6 +62,30 @@ summary = "익혀두면 머리가 편해지는 단축키들"
     | `SPC r y` | helm-show-kill-ring | `M-w` | show and save |
 
     </div>
+
+4.  compilation-mode
+
+    <div class="ox-hugo-table bind-key-table">
+    <div></div>
+
+    | Key Seq. | func.                      | alter | add key |
+    |----------|----------------------------|-------|---------|
+    | `M-n`    | compilation-next-error     |       |         |
+    | `M-p`    | compilation-previous-error |       |         |
+
+    </div>
+
+
+## <B> Xfce </B> {#}
+
+<div class="ox-hugo-table bind-key-table">
+<div></div>
+
+| Key Seq.      | func.                | alter | comments |
+|---------------|----------------------|-------|----------|
+| `C-S-M-arrow` | workspace navigation |       |          |
+
+</div>
 
 
 ## <B> Multi-session </B> {#}
